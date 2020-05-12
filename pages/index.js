@@ -12,7 +12,7 @@ function IndexPage({ posts }) {
       <h1 className="text-center text-4xl mb-12">Home</h1>
       <div className="max-w-3xl mx-auto grid grid-cols-2 gap-2 ">
       
-        {posts.map(({ title, slug, coverImage }) => {
+        {posts && posts.map(({ title, slug, coverImage }) => {
           const image = useContentfulImage(coverImage)
           return <Link key={slug} href={`/posts/${slug}`}>
             <div className="max-w-sm hover:shadow-xl px-4 py-2 rounded cursor-pointer">
