@@ -11,6 +11,18 @@
 - NextJS Offline (Coming Soon)
 
 
+## Get up and running
+
+1. `yarn` 
+2. Create an `.env.development.local` and put your keys for Contenful in there. See example below
+  ```
+  CONTENTFUL_SPACE_ID="YOUR_KEY"
+  CONTENTFUL_DELIVERY_KEY="YOUR_KEY"
+  ```
+3. `yarn dev`
+
+
+
 ## Notes
 - Need to check that the `next-seo` plugin isn't affected by custom `_document`
 
