@@ -1,9 +1,15 @@
 module.exports = {
   purge: ['./components/**/*.js', './pages/**/*.js'],
   theme: {
-    extend: {},
+    linearGradientColors: theme => theme('colors'),
+    radialGradientColors: theme => theme('colors'),
+    conicGradientColors: theme => theme('colors'),
+    extend: {
+    },
   },
   variants: {
   },
-  plugins: [],
+  plugins: [
+    require('tailwindcss-gradients'),
+  ],
 }
