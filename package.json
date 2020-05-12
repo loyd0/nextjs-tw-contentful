@@ -1,0 +1,31 @@
+{
+  "name": "nextjs-tw-contentful",
+  "description": "A simple starter to get up and developing quickly with NextJS, Contentful & TailwindCSS",
+  "version": "0.1.0",
+  "author": "Sam Loyd",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": [
+    "nextjs",
+    "tailwindcss",
+    "contentful"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@contentful/rich-text-html-renderer": "^13.4.0",
+    "@contentful/rich-text-types": "^14.1.0",
+    "contentful": "^7.14.4",
+    "gatsby-image": "^2.4.3",
+    "next": "^9.2.0",
+    "next-seo": "^4.4.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "postcss-preset-env": "^6.7.0",
+    "tailwindcss": "^1.4.0"
+  }
+}

@@ -1,0 +1,8 @@
+
+Sitemap: https://hostname.com/api/sitemap.xml
+
+User-agent: *
+Allow: /*
+
+Disallow: /api/*
+
